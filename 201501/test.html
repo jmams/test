@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>
+            注释对齐工具
+        </title>
+		<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="jcsspicker.js"></script>
+
+		
+
+<style type="text/css"> 
+		.JcssPicker { width: 240px; min-height:650px;  background-color:#F2F3F5; border: 1px solid #ccc; }
+		.JcssPicker-head { height: 30px;  line-height:25px; padding: 5px 10px; font-size:18px; font-weight:bold; background-color: #DBE0E6; }
+  
+		.JcssPicker-list { position:relative; height:650px; overflow-y:auto;}
+		.JcssPicker-item { position:relative; display: list-item; height:30px; padding: 5px 10px;}
+		.Jcss-desc { width:80px; position:relative; float: left; }
+		.Jcss-disp { width:100px; margin-left:5px; position:relative; float: left;  }
+		.Jcss-disp  input, .Jcss-disp select { width:100px; height: 25px; font-size: 12px; line-height: 1.5; border: 1px solid #ccc; border-radius: 3px; color: #555; }
+
+		</style>
+
+        <script type="text/javascript">
+           
+		
+
+        </script>
+		
+        
+        <body>
+
+
+		
+
+		<div class="JcssPicker">
+		 <div class="JcssPicker-head">自定义样式</div>
+		 <div id="divCssPicker" class="JcssPicker-list">
+			 <div class="JcssPicker-item">
+			   <div class="Jcss-desc"></div>
+			   <div class="Jcss-disp"></div>
+			 </div>
+		 </div>		
+		</div>
+
+
+		<div style="position:absolute; top:100px;left:500px;width:600px; height:600px; background-color:#ccc; text-align:center;">
+		  <br><br>
+		  测试DIV：
+		  <br><br>
+		  <div id="divTest" style="width:200px; height:200px; line-height:200px; position:relative; margin: auto; background-color:#ddd; border:1px solid red;">
+		  呵呵1!!!
+		  </div>
+		  <br>
+		<div>
+		  <textarea id="txtTest" style="width:400px; height:100px;"></textarea>
+		  </div>		  
+		</div>
+
+
+        </body>
+</html>
