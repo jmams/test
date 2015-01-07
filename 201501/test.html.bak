@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>
-            注释对齐工具
+            CSS样式设计，兼容性很强的颜色控件
         </title>
 		<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
 		<script type="text/javascript" src="jcsspicker.js"></script>
